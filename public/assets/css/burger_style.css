@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(26, 17, 6);
+}
+
+h3 {
+    color: red;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+p {
+    font-size: 10px;
+    color: white;
+}
+
+@media (max-width: 780px) {
+    .devourBtn {
+        font-size: 40%;
+    }
+    .burger_name {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 435px) {
+    .devourBtn {
+        font-size: 40%;
+    }
+    .burger_name {
+        font-size: 40%;
+    }
+}
+
+.burgerFooter {
+	background-color: white;
+	padding: 10px 0;
+}
